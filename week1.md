@@ -9,7 +9,7 @@
 - To connect to the remote server, you should run the following command on terminal
 `ssh cs15lwi23anc@ieng6.ucsd.edu` 
 - Make sure to type the correct password and the following should display
-- <img width="529" alt="CleanShot 2023-01-11 at 14 22 14@2x" src="https://user-images.githubusercontent.com/36582468/211930597-c0946bba-d805-4754-97a3-5afbb0f3f144.png">
+<img width="529" alt="CleanShot 2023-01-11 at 14 22 14@2x" src="https://user-images.githubusercontent.com/36582468/211930597-c0946bba-d805-4754-97a3-5afbb0f3f144.png">
 
 **3. Trying Some Commands**
 - After connecting to the remote server you can run the following commands
