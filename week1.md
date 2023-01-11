@@ -22,6 +22,6 @@ ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, wh
 cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
-- Running these commands will give these resaults: 
-- <img width="1502" alt="CleanShot 2023-01-11 at 14 26 43@2x" src="https://user-images.githubusercontent.com/36582468/211931316-83436ae6-5b77-45ff-ba70-d79221fd0e76.png">
+- Running these commands will give these results: 
+<img width="1502" alt="CleanShot 2023-01-11 at 14 26 43@2x" src="https://user-images.githubusercontent.com/36582468/211931316-83436ae6-5b77-45ff-ba70-d79221fd0e76.png">
 - *Sidenote: You can use Ctrl-D or the exit command to exit the remote server*
