@@ -24,4 +24,8 @@ cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
 - Running these commands will give these results: 
 <img width="1502" alt="CleanShot 2023-01-11 at 14 26 43@2x" src="https://user-images.githubusercontent.com/36582468/211931316-83436ae6-5b77-45ff-ba70-d79221fd0e76.png">
-- You can use Ctrl-D or the exit command to exit the remote server
+- Some notable results from running these commands include:   
+  * cd changes directory so you can get to /home/linux/ieng6/cs15lwi23/public from /home/linux/ieng6/cs15lwi23
+  * ls lists all the files and directories (per15 in this case)
+  * cp copies files and directories
+- You can use Ctrl-D or the exit command to exit the remote server 
