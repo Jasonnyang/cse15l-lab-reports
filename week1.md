@@ -1,11 +1,11 @@
 ## Week 1 lab report
 **1. Installing VScode**
-- You should visit https://code.visualstudio.com/ in order to download the Visual Studio Code program
+- You should visit [Visual Studio Code](https://code.visualstudio.com/) in order to download the Visual Studio Code program
 - Next download the program by navigating to this screen by pressing the blue download button in the top right corner <img width="1091" alt="CleanShot 2023-01-11 at 14 16 23@2x" src="https://user-images.githubusercontent.com/36582468/211929688-ab291953-7733-47a6-a9ed-fcfa5b628b1f.png">
 - Download the appropriate files based on the operating system you are on
 
 **2. Remotely Connecting**
-- In order to remotely connect to the server, you should first find your determine your email and password login using https://sdacs.ucsd.edu/~icc/index.php
+- In order to remotely connect to the server, you should first find your determine your email and password login using this [link](https://sdacs.ucsd.edu/~icc/index.php)
 - To connect to the remote server, you should run the following command on terminal
 `ssh cs15lwi23anc@ieng6.ucsd.edu` 
 - Make sure to type the correct password and the following should display
