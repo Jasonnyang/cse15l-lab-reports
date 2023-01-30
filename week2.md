@@ -1,5 +1,10 @@
 ## Week 2 lab report
-**Part 1**
+**Part 1** <br>
+<img width="572" alt="CleanShot 2023-01-30 at 13 55 10@2x" src="https://user-images.githubusercontent.com/36582468/215604110-cbceac65-d1f7-4048-b057-7ddf4b3043fe.png"> <br>
+The HandleRequest method is called in this screenshot. The method needs a URI and it also needs a path, for example "/add-message?s=Hello" in order to know what text to append to the list. The arraylist called arr in the code changes based on how many times a message has been added. The method's url parameter is changed every time to reflect what url and query string the code should process, in this case "Hello". The string str is also changed because right now there is only Hello and a new line character. <br>
+<img width="521" alt="CleanShot 2023-01-30 at 13 55 49@2x" src="https://user-images.githubusercontent.com/36582468/215604196-3a4f09a1-9fc1-45e3-b3b9-3ceb8fd9a842.png"> <br>
+The HandleRequest method is called in this screenshot. The method needs a URI and it also needs a path, for example "/add-message?s=How are you" in order to know what text to append to the list. The arraylist called arr in the code is appended to because a new message has been added. The method's url parameter is changed every time to reflect what url and query string the code should process, in this case "How are you". The string str is also changed because now there is a Hello, new line character, How are you, and another new line character. <br>
+<img width="755" alt="CleanShot 2023-01-30 at 13 56 25@2x" src="https://user-images.githubusercontent.com/36582468/215604310-107b0c40-4651-433f-be27-27822e2cf266.png">
 
 **Part 2** <br>
 ```java
