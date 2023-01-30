@@ -59,5 +59,5 @@ class EvensExample {
 }
 ```
 This fix addresses the issue because originally we were adding 1 to all of the indexes being summed so index 1, 3, 5, etc. were being summed instead of 0, 2, 4, etc. By removing the [i+1] and replacing it with [i] it allows the even indexes to be summed instead of the odd ones. <br>
-**Part 3**
-
+**Part 3** <br>
+Something new that I learned this week is how to create a web server. I learned the commands to run the server like using "java StringServer 4000" to start the server by supplying a port number. I also learned how to parse a url so that I can process the argument and interact with my local server. I also learned what a URI was and how you need that in order to pass into the method that can handle and process the requests of the server. 
