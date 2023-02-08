@@ -25,4 +25,4 @@ When using the -v argument on a directory as typed below, it causes all the line
 When using the -v argument on a file, it prints out all the lines in the file that don't contain the word recommend. It is interesting how it also prints out empty lines. <br>
  
 **Sources** <br>
-I used the man grep command in the terminal to get a list of all the command line arguments that I could use for grep. I found the examples section to be useful.  
+I used the ```man grep``` command in the terminal to get a list of all the command line arguments that I could use for grep. I found the examples section to be useful. In addition I referred to the lab materials from week 4 in order to refresh my understanding of grep. 
