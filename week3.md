@@ -8,7 +8,7 @@ When using the -c argument on a file, the file name no longer shows up and only 
 
 *Using the -l argument* <br>
 <img width="879" alt="CleanShot 2023-02-07 at 17 50 14@2x" src="https://user-images.githubusercontent.com/36582468/217408106-30824cbc-eb13-41a9-a2f9-f9d5f770092e.png"> <br>
-When using the -l argument on a file, the file will show back up in the output only if it contains the specified phrase or word in it. The file did not show up because the file does contain the word recommend so nothing is returned. This makes the grep command less expensive which makes it useful since once the command finds that the target word exists in the file, it returns the file and stops looking for additional instances of the target word. <br> 
+When using the -l argument on a file, the file will show back up in the output only if it contains the specified phrase or word in it. The file did not show up because the file does contain the word recommend so nothing is returned. This makes the grep command less expensive which makes it useful since once the command finds that the target word exists in the file, it returns the file and stops looking for additional instances of the target word within that file. <br> 
 <img width="793" alt="CleanShot 2023-02-07 at 18 19 30@2x" src="https://user-images.githubusercontent.com/36582468/217412023-38816bbd-084a-4cf2-bbaa-1859f7872517.png"> <br>
 When using the -l argument on a directory, the files with the word recommend will show up. These files match the output from the -c command. <br>
 
