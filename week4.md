@@ -18,10 +18,22 @@ I logged into ieng6 by typing ```ssh cs15lwi23anc@ieng6.ucsd.edu```. Because I r
 
 5. Clone your fork of the repository from your Github account
 <img width="722" alt="CleanShot 2023-02-23 at 19 18 38@2x" src="https://user-images.githubusercontent.com/36582468/221083758-26f5157c-0b60-4f31-a78a-fb2dd362ee32.png">
-I ran the command ```git clone git@github.com:Jasonnyang/lab7.git``` in order to clone. I got the url by going to my forked repository and clicking ssh and copying the url, shown in the image below. 
-![CleanShot 2023-02-23 at 19 22 59](https://user-images.githubusercontent.com/36582468/221084273-21b0af09-a18d-48ff-8eb4-ffd7cc263acb.png)
+I ran the command ```git clone git@github.com:Jasonnyang/lab7.git``` in order to clone. I got the url by going to my forked repository and clicking ssh and copying the url, shown in the image below. <br>
+![CleanShot 2023-02-23 at 19 23 53](https://user-images.githubusercontent.com/36582468/221084403-6486567a-7f5e-440f-bfb6-57c5de556b04.png) <br>
 
 6. Run the tests, demonstrating that they fail
+I ran the commands ```cd lab7/``` to enter the lab7 directory and then I ran ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` in order to compile the java files in the directory. Then I ran ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` to actually run the test file. 
+<img width="966" alt="CleanShot 2023-02-23 at 19 27 27@2x" src="https://user-images.githubusercontent.com/36582468/221084904-426ad797-3ed3-4d3a-bedb-4425ca2b1b64.png">
+
 7. Edit the code file to fix the failing test
+Because there was an error, I used the command ```nano ListExample.java``` to open up the ListExample file to fix the error. The error was a line where it says ```index1 += 1;``` which I changed to ```index2 += 1;``` to fix the issue. 
+<img width="976" alt="CleanShot 2023-02-23 at 19 29 32@2x" src="https://user-images.githubusercontent.com/36582468/221085119-d5377680-6483-453f-9800-a09cf053d4a5.png">
+I then used ```Ctrl-O, <Enter>, Ctrl-X``` to save the edits. 
+
 8. Run the tests, demonstrating that they now succeed
+I then reran the javac and java commands by typing ```<up><up><up><enter>``` to run the javac commmand and then ```<up><up><up><enter>``` to run the java command. <br>
+<img width="966" alt="CleanShot 2023-02-23 at 19 31 47@2x" src="https://user-images.githubusercontent.com/36582468/221085368-d0304e04-9207-4f2b-849d-77d4ce5981f5.png">
+
 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
+Finally I ran ```git add .``` to add all the files to be tracked. Then I ran ```git commit -m "Commit"``` to get my code ready to be committed. Then I ran ```git push origin main ``` in order to push my code to Github. 
+<img width="505" alt="CleanShot 2023-02-23 at 19 33 15@2x" src="https://user-images.githubusercontent.com/36582468/221085533-3984257c-48c0-4be9-abbe-c13cd82bc8a2.png">
