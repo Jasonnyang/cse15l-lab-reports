@@ -39,5 +39,5 @@ I then reran the javac and java commands by typing ```<up><up><up><enter>``` to 
 <img width="966" alt="CleanShot 2023-02-23 at 19 31 47@2x" src="https://user-images.githubusercontent.com/36582468/221085368-d0304e04-9207-4f2b-849d-77d4ce5981f5.png">
 
 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
-Finally I ran ```git add .``` to add all the files to be tracked. Then I ran ```git commit -m "Commit"``` to get my code ready to be committed. Then I ran ```git push origin main ``` in order to push my code to Github. 
+Finally I ran ```git add .``` to add all the files to be staged. Then I ran ```git commit -m "Commit"``` to get my code committed, acting as a snapshot of my repository at this point in time. Then I ran ```git push origin main``` in order to push my committed code to Github.
 <img width="505" alt="CleanShot 2023-02-23 at 19 33 15@2x" src="https://user-images.githubusercontent.com/36582468/221085533-3984257c-48c0-4be9-abbe-c13cd82bc8a2.png">
