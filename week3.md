@@ -8,19 +8,19 @@ When using the -c argument on a file, the file name no longer shows up and only 
 
 *Using the -l argument* <br>
 <img width="879" alt="CleanShot 2023-02-07 at 17 50 14@2x" src="https://user-images.githubusercontent.com/36582468/217408106-30824cbc-eb13-41a9-a2f9-f9d5f770092e.png"> <br>
-When using the -l argument on a file, the file will show back up in the output only if it contains the specified phrase or word in it. The file did not show up because the file does contain the word recommend so nothing is returned. <br> 
+When using the -l argument on a file, the file will show back up in the output only if it contains the specified phrase or word in it. The file did not show up because the file does contain the word recommend so nothing is returned. This makes the grep command less expensive which makes it useful since once the command finds that the target word exists in the file, it returns the file and stops looking for additional instances of the target word. <br> 
 <img width="793" alt="CleanShot 2023-02-07 at 18 19 30@2x" src="https://user-images.githubusercontent.com/36582468/217412023-38816bbd-084a-4cf2-bbaa-1859f7872517.png"> <br>
 When using the -l argument on a directory, the files with the word recommend will show up. These files match the output from the -c command. <br>
 
 *Using the -L argument* <br>
 <img width="872" alt="CleanShot 2023-02-07 at 17 49 55@2x" src="https://user-images.githubusercontent.com/36582468/217408059-bfad7a31-26f5-4842-8857-ec3fb1067cab.png"> <br>
-When using the -L argument on a file, the file will show back up in the output only if it does not contains the specified phrase or word in it. The file showed up because the file does not contain the word recommend. <br>
+When using the -L argument on a file, the file will show back up in the output only if it does not contains the specified phrase or word in it. The file showed up because the file does not contain the word recommend. This is useful in situations where you are trying to filter out certain keywords like saying you want files with the word recommend but not the word dislike. <br>
 <img width="777" alt="CleanShot 2023-02-07 at 18 21 26@2x" src="https://user-images.githubusercontent.com/36582468/217412301-65c68495-bc85-4285-b1f7-a8efa25b0277.png"> <br>
 When using the -L argument on a directory, the files without the word in the files will show up again. The files that showed up when using -l will not show up again if you use -L because a file either contains or does not contain the target word. <br>
 
 *Using the -v argument* <br>
 <img width="983" alt="CleanShot 2023-02-07 at 18 25 16@2x" src="https://user-images.githubusercontent.com/36582468/217412872-94e802d5-20f2-4fc9-a349-5d6f04ea0503.png"><br>
-When using the -v argument on a directory as typed below, it causes all the lines in the directory without the target word to be displayed. In this case, the directory is giant and many lines were printed out since there are a lot of lines without the word recommend. <br>
+When using the -v argument on a directory as typed below, it causes all the lines in the directory without the target word to be displayed. In this case, the directory is giant and many lines were printed out since there are a lot of lines without the word recommend. This could be useful in situations where you had to search through a very repetitive directory with lots of repeated words that you wanted to ignore. <br>
 <img width="948" alt="CleanShot 2023-02-07 at 18 27 20@2x" src="https://user-images.githubusercontent.com/36582468/217413100-08f09185-b35d-4ec9-8bca-b2771b8f0e78.png"> <br>
 When using the -v argument on a file, it prints out all the lines in the file that don't contain the word recommend. It is interesting how it also prints out empty lines. <br>
  
