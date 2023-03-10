@@ -16,8 +16,6 @@ I pressed the fork button on the top right of the screen which took me to this p
 
 6. You can't log into ieng6 just yet because if you ssh in the script, the rest of the script won't run. We will instead create the bash script locally and run it on the ieng6 server with a command. 
 
-6. Log into ieng6 by typing ```ssh cs15lwi23anc@ieng6.ucsd.edu``` into the bash script<br>
-
 7. To clone your fork of the repository from your Github account, run the command ```git clone git@github.com:Jasonnyang/lab7.git``` but you need to press the fork button on github before running the script. 
 
 8. Run the tests, demonstrating that they fail <br>
